@@ -1,0 +1,80 @@
+#mmenu_screen > .row {
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+.bg {
+    background-image: url('./corgiPic.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+/* .bg:hover{
+    transform: scale(1.2);
+} */
+
+.btn,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  color: #01E4A3 !important;
+  border: 2px solid #01E4A3 !important;
+  font-size: 16px !important;
+}
+
+#onramper-widget {
+  height: 520px;
+  width: 100%;
+  margin: 20px 0 0 0;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bottomButton{
+  background-color: #01E4A3 !important;
+   color:#1f1f1f !important;
+   font-weight: 700 !important;
+   display:block !important;
+}
+.bottomButton-temp{
+  background-color: #01E4A3 !important;
+   color:#1f1f1f !important;
+   font-weight: 700 !important;
+   display:none !important;
+}
+
+.nav-link{
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+
+/* .aim-section{
+    display: none;
+} */
+
+@media only screen and (max-width: 600px) {
+
+  .bottomButton{
+    display:none !important;
+  }
+  .bottomButton-temp{
+    display:block !important;
+  }
+
+    .bg {
+        height: 50vh !important;
+      }
+    
+    .aim-section{
+        display: block;
+    }
+  }
